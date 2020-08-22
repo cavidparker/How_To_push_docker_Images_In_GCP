@@ -6,6 +6,7 @@
 - sudo gpasswd -a $USER docker
 
 #### Step 2 : check docker images
+-Docker
 
 #### step 3 : docker login 
 
@@ -15,14 +16,16 @@
 #### step 6 : Check the gcloud project list
 - gcloud projects list
 #### step 7 : change the file pattarn.
-- docker tag username/docker_project_name gcr.io/project_id/project_name:v1
+- docker tag Docker_username/docker_project_name gcr.io/project_id/project_name:v1
 - Example : docker tag musa/docker_project_name gcr.io/test-gpu/dress_api:v1
+- Example : docker tag cavid101/dress_api:latest gcr.io/ai-project/dress_api:v1
 
 #### Step 8 : check docker images
 - docker images
 
 #### step 9 : Push the docker Images 
 - docker push gcr.io/test-gpu/project_name
+- example: docker push gcr.io/ai-project-28721/dress_api
 
 #### step 10: If you don't get permission use this
 You don't have the needed permissions to perform this operation, and you may have 
