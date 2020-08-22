@@ -1,6 +1,10 @@
 # How_To_push_docker_Images_In_GCP :
 
 #### Step 1 : setup the docker
+- link : https://docs.docker.com/engine/install/ubuntu/ 
+- sudo groupadd docker
+- sudo gpasswd -a $USER docker
+
 #### Step 2 : check docker images
 
 #### step 3 : docker login 
