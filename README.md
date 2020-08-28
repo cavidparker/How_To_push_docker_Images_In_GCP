@@ -42,3 +42,4 @@ invalid credentials. To authenticate your request, follow the steps in: https://
 
 ### link :
 - Deploying a containerized web application: https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+- Kubernetes Engine (GKE) cluster GPUs : https://cloud.google.com/kubernetes-engine/docs/how-to/gpus#gcloud
